@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis in C-sharp", "Kattis in C-sharp\Kattis in C-sharp.csproj", "{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}.Debug|x64.ActiveCfg = Debug|x64
+		{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}.Debug|x64.Build.0 = Debug|x64
+		{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}.Release|x64.ActiveCfg = Release|x64
+		{DE335F06-FACB-4ACB-B4B7-BA04B052FCBD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82348C3C-D02D-4DFC-926D-E94404A8ABDC}
+	EndGlobalSection
+EndGlobal
