@@ -86,6 +86,7 @@
     <Compile Include="APriceNoOneCanWin.cs" />
     <Compile Include="2048.cs" />
     <Compile Include="CookingWater.cs" />
+    <Compile Include="SkyIslands.cs" />
     <Compile Include="stringmatching.cs" />
     <Compile Include="BaconEggAndSpam.cs" />
     <Compile Include="ElectricalOutlets.cs" />
