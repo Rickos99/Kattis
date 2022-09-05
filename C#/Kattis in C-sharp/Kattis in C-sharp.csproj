@@ -70,6 +70,7 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Bard.cs" />
     <Compile Include="Easiest.cs" />
     <Compile Include="ElectionParadox.cs" />
     <Compile Include="AverageCharacter.cs" />
