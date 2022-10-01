@@ -91,6 +91,7 @@
     <Compile Include="KeyLogger.cs" />
     <Compile Include="Shopaholic.cs" />
     <Compile Include="SkyIslands.cs" />
+    <Compile Include="SpellingBee.cs" />
     <Compile Include="stringmatching.cs" />
     <Compile Include="BaconEggAndSpam.cs" />
     <Compile Include="ElectricalOutlets.cs" />
