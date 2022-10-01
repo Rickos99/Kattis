@@ -107,6 +107,7 @@
     <Compile Include="Reverse.cs" />
     <Compile Include="SecureDoors.cs" />
     <Compile Include="Sim.cs" />
+    <Compile Include="TheGrandAdventure.cs" />
     <Compile Include="TripleTexting.cs" />
     <Compile Include="WhatDoesTheFoxSay.cs" />
     <Compile Include="polymul1.cs" />
