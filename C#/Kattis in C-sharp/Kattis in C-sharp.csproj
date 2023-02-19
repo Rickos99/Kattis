@@ -91,6 +91,7 @@
     <Compile Include="CookingWater.cs" />
     <Compile Include="KeyLogger.cs" />
     <Compile Include="Mirror.cs" />
+    <Compile Include="Patchwork.cs" />
     <Compile Include="Shopaholic.cs" />
     <Compile Include="SkyIslands.cs" />
     <Compile Include="SpellingBee.cs" />
