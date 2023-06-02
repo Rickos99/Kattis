@@ -5,15 +5,23 @@ import (
 	"math"
 )
 
+var one float64 = 1.0
+
+type Artichoke struct {
+	p, a, b, c, d float64
+}
+
 func main() {
 	var p, a, b, c, d, n float64
 	fmt.Scanln(&p, &a, &b, &c, &d, &n)
 
+	var artichoke = Artichoke{p, a, b, c, d}
+
 	var maxDecline = 0.0
-	var max = price(1, p, a, b, c, d)
+	var max = artichoke.price(&one)
 	var min = max
 	for k := 2.0; k <= n; k++ {
-		var price = price(k, p, a, b, c, d)
+		var price = artichoke.price(&k)
 		if max < price {
 			max = price
 			min = price
@@ -28,6 +36,6 @@ func main() {
 	fmt.Printf("%.9f", maxDecline)
 }
 
-func price(k, p, a, b, c, d float64) float64 {
-	return p * (math.Sin(a*k+b) + math.Cos(c*k+d) + 2)
+func (r *Artichoke) price(k *float64) float64 {
+	return r.p * (math.Sin(r.a*(*k)+r.b) + math.Cos(r.c*(*k)+r.d) + 2)
 }
